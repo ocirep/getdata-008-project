@@ -85,7 +85,7 @@ new_names[index]<-paste('Frequency_domain.Body',new_names[index],sep='')
 ## Acc  ->  Linear acceleration
 ## AccJerk -> Jerk Linear acceleration
 ## Gyro    -> Angular velocity
-## Gyrojerk -> Jerk ancular velocity
+## Gyrojerk -> Jerk angular velocity
 ## Search for these expressions and continue preparing new names
 index<-grep('Acc',col_names)
 new_names[index]<-paste(new_names[index],'.Linear_acceleration',sep='')
